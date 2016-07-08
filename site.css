@@ -1,0 +1,42 @@
+#header {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+	background-color: white;
+	color: #000000;
+	text-align: right;
+}
+h1 {
+	font-size: 48px;
+}
+
+h4 {
+	font-family: "Times New Roman", Times, serif;
+	font-size:14px;
+	text-align: center;
+}
+
+#footer {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	text-align: left;
+	color: #000000;
+}
+
+table {
+	table-layout: auto;
+	background-color: null;
+	border-color: white;
+}
+
+#img01 {
+	width: auto !important;
+	height: 300px;
+}
+
+body {
+	background-image: url("background.jpg");
+	background-color: #cccccc;
+	width: device-width;
+	page-break-before: auto;
+	page-break-after: auto;
+}
