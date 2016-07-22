@@ -1,0 +1,83 @@
+<!DOCTYPE html>	
+<html lang="en-US">
+
+<head>
+<title>Rregistration Form</title>
+<link href="registration form.css" rel="stylesheet">
+</head>
+
+<body>
+<h1 align="center">STUDENT</h1>
+<form size="70%">
+  <fieldset>
+    <legend>Personal Information</legend>
+    <p>Resume:
+  <input type="text" name="resume"><br>
+      Transcript: (optional) 
+      <input type="text" name="transcript">
+    </p>
+    <p>First Name: <input type="text" name = "firstname">
+       Last Name: <input type="text" name = "lastname">
+       Address: <input type="text" name = "address">
+       City: <br><select></select><br>
+       Province: <br><select></select><br>
+       Postal Code: <input type="text" name = "postalcode"></p>
+    </fieldset>
+    
+  <fieldset>
+    <legend>Education Details</legend>
+            <b>University: </b><select></select>
+            <b>Student ID: </b><input type="text" name="studentid"><br>
+            <b>Major #1: </b><select></select><br>
+            <b>Major #2: </b><select></select><br>
+            <b>Minor: <br></b><select></select>
+            <b>Program:</b> 
+               <select>
+                 <option value="Co-op">Co-op</option>
+                 <option value="Regular">Regular</option>
+    <option value="Apprenticeship">Apprenticeship</option></select>
+            
+            <p>If you selected co-op, please indicate the number of co-op term you have complete: 
+            <input type="text" name="co-opterm">
+          </p>
+        <p>If you selected regular/apprenticeship, please indicate your year of work experience: <input type="text" name="work_experience"></p>
+  </fieldset>
+  
+    <fieldset>
+      <legend>Job Preference</legend>
+        <b>Salary Range: </b>(CAN/hr)<br>
+        <table slign="center"><tr><th align="left">
+        Minimum: <input type="number" name="salary_min"></th>
+        <th align="left">Maximum: <input type="number" name="salary_max"></th></tr>
+        </table>
+        <b>Top 5 Technical Skills You Have:</b><br>
+        <select></select><select></select><select></select><select></select><select></select><br>
+        <p><b>Location Preference #1: </b>(dropdown list to choose from)<br>
+        <select></select>
+        </p>
+        <p><strong>Location Preference #2: </strong>(dropdown list to choose from)<br>
+        <select></select></p>
+      <p><strong>Location Preference #3: </strong>(dropdown list to choose from)<br>
+        <select></select></p>
+        <p><b>Are you willing to relocate?</b><br>
+        <input type="radio" value="yes">Yes
+        <input type="radio" value="no">No</p>
+        <p><strong>When are you available?</strong></p>
+        <p>Starting date: dd-mm-yyyy (choose from calender)</p>
+        <p>End date: dd-mm-yyyy (choose from calender)</p>
+        <p><b>Company Preference: </b> (e.g. Oracle, Microsoft, UWaterloo, etc.)<br>
+        <input type="text" name="company_preference"><br>
+        <b>Position Preference #1: </b>(Choose from dropdown List)<br>
+        <input type="text" name="job1"><br>
+        <b>Position Preference #2: </b>(Choose from dropdown List)<br>
+        <input type="text" name="job2"><br>
+        <b>Position Preference #3: </b>(Choose from dropdown List)<br>
+        <input type="text" name="job3">
+        </p>
+    </fieldset>
+    <table align="center">
+      <tr><td><input align="center" type="submit" value="Submit"></td>
+        <td><input type="button" align="center" value="Close"></td></tr></table>
+</form>
+</body>
+</html>
