@@ -1,0 +1,80 @@
+div.main {
+	width: 100%;
+	height: inherit;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	padding: 0.5em;
+}
+
+a:active {
+	color: black;
+}
+
+
+div.head_child {
+	font-family: "Vivaldi";
+	font-size: 25px;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	clear: left;
+}
+
+div.transbox nav ul {
+	list-style-type: none;
+	padding: 10;
+}
+
+div.transbox nav ul a {
+	font-family: "楷体";
+	text-decoration: none;
+	padding: 10;
+	color: black;
+	font-size: 22px;
+}
+
+div.transbox nav {
+    float: left;
+	width: 25%;
+	max-width: 160px;
+	margin: 0;
+	padding: 10;
+}
+
+article {
+	margin-left: 170px;
+	border-left: 1px solid gray;
+	padding: 1em;
+	overflow: hidden;
+}
+
+body {
+	background-image: url("background.jpg");
+	width: 100%;
+	background-color: #cccccc;
+	width: device-width;
+	page-break-before: auto;
+	page-break-after: auto;
+}
+
+table {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+footer {
+	padding: 1em;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	text-align: left;
+	color: #000000;
+	text-align: center;
+	clear: left;
+}
