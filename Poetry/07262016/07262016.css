@@ -1,0 +1,82 @@
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	padding: 0.5em;
+}
+
+a:active {
+	color: black;
+}
+
+
+div.head_child {
+	font-family: "Vivaldi";
+	font-size: 25px;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	clear: left;
+}
+
+div.transbox nav ul {
+	list-style-type: none;
+	padding: 10;
+}
+
+div.transbox nav ul a {
+	font-family: "楷体";
+	text-decoration: none;
+	padding: 10;
+	color: black;
+	font-size: 22px;
+}
+
+div.transbox nav {
+    float: left;
+	width: 25%;
+	max-width: 160px;
+	margin: 0;
+	padding: 10;
+}
+
+article {
+	margin-left: 170px;
+	border-left: 1px solid gray;
+	padding: 1em;
+	overflow: hidden;
+}
+
+body {
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #cccccc;
+	page-break-before: auto;
+	page-break-after: auto;
+}
+
+footer {
+	padding: 1em;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	text-align: left;
+	color: #000000;
+	text-align: center;
+	clear: left;
+}
+
+div.main {
+	background-color: #ffffff;
+	border: none;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+div.main h3, div.main p {
+	margin: 5%;
+	color: #000000;
+	font-family: "楷体";
+}
