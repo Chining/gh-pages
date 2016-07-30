@@ -27,11 +27,12 @@ div.transbox nav ul {
 }
 
 div.transbox nav ul a {
-	font-family: "楷体";
+	font-family: "宋体";
 	text-decoration: none;
 	padding: 10;
 	color: black;
-	font-size: 22px;
+	font-size: 18px;
+	float: right;
 }
 
 div.transbox nav {
@@ -43,17 +44,15 @@ div.transbox nav {
 }
 
 article {
-	font-family: "楷体";
-	font-size: 20px;
-	margin-left: 26%;
+	font-family: "宋体";
+	font-size: 18px;
+	margin-left: 15%;
 	padding: 1em;
 	overflow: hidden;
 }
 
 body {
-	background-image: url("background.jpg");
-	width: 100%;
-	background-color: #cccccc;
+	background-color: #ffffff;
 	width: device-width;
 	page-break-before: auto;
 	page-break-after: auto;
