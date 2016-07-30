@@ -27,11 +27,12 @@ div.transbox nav ul {
 }
 
 div.transbox nav ul a {
-	font-family: "楷体";
+	font-family: "宋体";
 	text-decoration: none;
 	padding: 10;
 	color: black;
-	font-size: 22px;
+	font-size: 18px;
+	float: right;
 }
 
 div.transbox nav {
@@ -50,10 +51,7 @@ article {
 }
 
 body {
-	background-image: url("background.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: #cccccc;
+	background-color: #ffffff;
 	page-break-before: auto;
 	page-break-after: auto;
 }
